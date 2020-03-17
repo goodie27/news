@@ -1,0 +1,50 @@
+.nav-item {
+  background-color: #aaaaaa;
+  color: tan;
+  text-decoration-color: skyblue;
+  font-size: medium;
+  font-family: cursive;
+  margin: 21px;
+  padding-left: 60px;
+}
+@media screen and (max-width: 800px) {
+  .card {
+    width: 400px;
+  }
+  .card-body {
+    width: 400px;
+  }
+  #headlines {
+    margin-left: 50px;
+  }
+}
+body {
+  background-color: whitesmoke;
+}
+h3 {
+  margin: 0px;
+  padding: 0px;
+  font-weight: normal;
+
+  font-family: monospace;
+  color: tomato;
+}
+.nav-item a:hover {
+  cursor: pointer;
+  color: burlywood;
+}
+.holder {
+  display: flex;
+}
+.card {
+  width: 364px;
+  margin: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  box-shadow: 13px 15px 10px 5px #aaaaaa;
+}
+#headlines {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 50px;
+}
